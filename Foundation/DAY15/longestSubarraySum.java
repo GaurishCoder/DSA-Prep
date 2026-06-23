@@ -46,11 +46,11 @@ public class longestSubarraySum {
     public static void main(String[] args) {
         int arr[] = { 10, 5, 2, 7, 1, 9 };
 
-        int n = arr.length, k = 15;
+        int n = arr.length;
 
         System.out.println("\nOriginal Array:");
         printArray(arr);
 
-        findLongestSubarraySum(arr, n, k);
+        findLongestSubarraySum(arr, n, 15);
     }
 }
