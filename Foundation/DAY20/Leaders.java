@@ -7,7 +7,7 @@ import java.util.Collections;
 public class Leaders {
     public static void findLeadersFromRight(int[] arr, int n) {
         ArrayList<Integer> ans = new ArrayList<>();
-        int max=arr[n-1],i=n-2;;
+        int max=arr[n-1],i=n-2;
         ans.add(max);
         while (i>=0) {
             if (arr[i]>max) {
