@@ -26,7 +26,7 @@ public class LongestConsectiveLength {
         System.out.println("Longest Consective Numbers Length:" + len);
     }
 
-    // TC:O(n^2) and SC:O(1)
+    // TC:O(nlogn+n) and SC:O(1)
     public static void findLongestConsectiveNumbersLength(int[] arr, int n) {
         Arrays.sort(arr);
         int len = 1, currCount = 0, lastSmaller = Integer.MIN_VALUE;
@@ -58,6 +58,8 @@ public class LongestConsectiveLength {
         System.out.println("\nOriginal Array:");
         printArray(arr);
 
+        //better approach
+        // findLongestConsectiveNumbersLength(arr, n);  
         findLongestConsectiveNumbersLengthOptimal(arr, n);
     }
 }
