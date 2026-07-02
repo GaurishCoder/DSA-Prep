@@ -7,7 +7,6 @@ public class Input {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number:");
         int n = sc.nextInt();
-        sc.close();
         return n;
     }
     public static String getString(){
