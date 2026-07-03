@@ -3,8 +3,8 @@ public static void print2DArray(int[][] arr) {
         for (int j = 0; j < arr[0].length; j++) {
             System.out.print(arr[i][j] + " ");
         }
+        System.out.println();
     }
-    System.out.println();
 }
 
 public static void main(String[] args) {
