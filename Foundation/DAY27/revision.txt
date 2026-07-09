@@ -1,0 +1,1 @@
+revised the 3 question that are 3sum,4sum and length of subarray
